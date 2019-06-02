@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const NavBar = () => {
+const NavBar = () =>
   return (
     <div>
       <NavLink
@@ -38,7 +38,7 @@ const NavBar = () => {
       >Actors</NavLink>
     </div>
   );
-};
+
 
 const link = {
   width: '100px',
